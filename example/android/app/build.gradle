@@ -26,7 +26,7 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
     compileSdkVersion 29
-    namespace "com.crazecoder.openfileexample"
+    namespace "com.crazecoder.openfile"
 
     lintOptions {
         disable 'InvalidPackage'
@@ -34,7 +34,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.crazecoder.openfileexample"
+        applicationId "com.crazecoder.openfile"
         minSdkVersion 16
         targetSdkVersion 29
         versionCode flutterVersionCode.toInteger()
